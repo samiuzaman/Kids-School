@@ -1,0 +1,22 @@
+/* Root Code Start */
+:root{
+    /* color theme */
+    --orangeColor: rgba(254, 163, 1, 1);
+    --skyblueColor: rgba(1, 172, 253, 1);
+    --blackColor: rgba(17, 17, 17, 1)
+    --whiteColor: rgba(247, 247, 247, 1);
+    --pestColor: rgba(5, 212, 223, 1);
+    --violetColor: rgba(93, 88, 239, 1);
+
+    /* font Family */
+    --primaryFont: Quicksand;
+    --secondFont: Raleway;
+}
+/* Root Code End */
+/* Reset CSS Design */
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primaryFont);
+}
