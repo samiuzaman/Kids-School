@@ -118,6 +118,9 @@ nav ul  li:nth-child(4){
     height: 575px;
 }
 /* Header Section Code End Here */
+main{
+    background: linear-gradient(#FFFFFF, rgba(254, 163, 1, 0.3));
+}
 /* Curriculum Section Code Start Here */
 #curriculum-container{
     width: 80%;
@@ -204,3 +207,79 @@ nav ul  li:nth-child(4){
     
 }
 /* Curriculum Section Code End Here */
+
+/* Our Stories Section Code Start Here */
+#our-stories-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#our-stories-container h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#stories-card-parent-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.single-card{
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 50px;
+    text-align: left;
+}
+.stories-card-image{
+    position: relative;
+}
+.single-card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50%;
+    width: 100%;
+    
+}
+.single-card span{
+    width: 170px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(60, 216, 232, 1);
+    padding: 8px 15px;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 28%;
+    bottom: -10px;
+}
+.single-card h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 24px;
+}
+.single-card p{
+    font-size: 15px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 28px;
+    padding: 0 24px;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+.stories-btn{
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: black;
+}
+/* Our Stories Section Code End Here */
