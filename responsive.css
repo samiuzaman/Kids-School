@@ -1,0 +1,11 @@
+@media only screen and (max-width: 640px){
+    
+    /* Responsive Footer Section */
+    footer{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .footer-col-one{
+        width: 100%;
+    }
+}

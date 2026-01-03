@@ -325,6 +325,10 @@ footer{
 }
 .footer-col-two ul li{
     margin-bottom: 16px;
+    cursor: pointer;
+}
+.footer-col-two ul li:hover{
+    text-decoration: underline;
 }
 .footer-col-three img{
     width: 40px;
