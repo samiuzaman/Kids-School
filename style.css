@@ -88,6 +88,16 @@ nav ul  li:nth-child(4){
 .nav-btn{
     background-color: var(--orangeColor);
 }
+.menu-btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+.menu-btn img{
+    width: 25px;
+    height: 25px;
+}
 #hero-section{
     width: 80%;
     margin: 0 auto;

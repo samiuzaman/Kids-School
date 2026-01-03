@@ -1,5 +1,24 @@
 @media only screen and (max-width: 640px){
-    
+    /* Responsive Header Section */
+    .menu-btn{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    /* Responsive Hero Area */
+    #hero-section{
+        flex-direction: column;
+    }
+    #hero-section h1{
+    font-size: 30px;
+    line-height: 35px;
+}
+    /* Responsive Our Stories Section */
+
     /* Responsive Footer Section */
     footer{
         flex-direction: column;
