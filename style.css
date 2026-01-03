@@ -137,6 +137,7 @@ main{
     margin: 0 auto;
     text-align: center;
     margin-bottom: 60px;
+    padding-top: 10px;
 }
 #curriculum-container h2{
     font-size: 46px;

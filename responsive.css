@@ -17,6 +17,19 @@
     font-size: 30px;
     line-height: 35px;
 }
+#hero-section img{
+    margin-bottom: 1000px;
+}
+/* Responsive Curriculum Section */
+#curriculum-container{
+    padding-top: 350px;
+}
+#curriculum-container h2{
+    font-size: 30px;
+}
+#card-parent-div{
+    flex-direction: column;
+}
     /* Responsive Our Stories Section */
 
     /* Responsive Footer Section */
