@@ -20,6 +20,10 @@
     #hero-section{
         flex-direction: column-reverse;
     }
+    #hero-section img{
+    width: 368px;
+    height: 475px;
+}
     #hero-section h1{
     font-size: 30px;
     line-height: 35px;
@@ -27,7 +31,7 @@
 
 /* Responsive Curriculum Section */
 #curriculum-container{
-    padding-top: 350px;
+    
 }
 #curriculum-container h2{
     font-size: 30px;
@@ -35,7 +39,17 @@
 #card-parent-div{
     flex-direction: column;
 }
+.curriculaum-btn{
+    display: none;
+}
     /* Responsive Our Stories Section */
+    .card-post{
+        display: none;
+    }
+    #single-card-parent{
+        display: flex;
+        flex-direction: column;
+    }
 
     /* Responsive Footer Section */
     footer{
