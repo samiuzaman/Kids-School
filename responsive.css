@@ -3,6 +3,13 @@
     .menu-btn{
         display: block;
     }
+    nav{
+        border-bottom: 1px solid gainsboro;
+        padding-bottom: 5px;
+    }
+    .logo-container h3{
+        display: none;
+    }
     nav ul{
         display: none;
     }
@@ -11,15 +18,13 @@
     }
     /* Responsive Hero Area */
     #hero-section{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     #hero-section h1{
     font-size: 30px;
     line-height: 35px;
 }
-#hero-section img{
-    margin-bottom: 1000px;
-}
+
 /* Responsive Curriculum Section */
 #curriculum-container{
     padding-top: 350px;
