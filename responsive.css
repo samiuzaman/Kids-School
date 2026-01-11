@@ -52,6 +52,21 @@
         flex-direction: column;
     }
 
+    /* Responsive FAQ section */
+    #faq-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .faq-and-img-parent-div{
+        flex-direction: column;
+    }
+    .faq-section{
+        width: 100%;
+    }
+    .faq-img{
+        display: none;
+    }
+
     /* Responsive Footer Section */
     footer{
         flex-direction: column;
