@@ -302,6 +302,7 @@ main{
     width: 290px;
     background-color: white;
     border-radius: 16px;
+    box-shadow: 4px 4px 8px rgb(219, 217, 217);
 }
 .single-card p{
     font-size: 20px;

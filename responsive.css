@@ -63,3 +63,32 @@
 }
 
 /* Laptop Responsive Design */
+@media screen and (max-width: 1425px){
+    #hero-section h1{
+        font-size: 45px;
+        line-height: 57px;
+    }
+        #hero-section img{
+            width: 368px;
+            height: 450px;
+        }
+#faq-container{
+    h2{
+        font-size: 32px;
+        padding-bottom: 28px;
+    }
+    .single-card p{
+    font-size: 18px;
+    }
+}
+.single-faq{
+    h6{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+        color: #707070;
+    }
+    
+}
+}
