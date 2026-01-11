@@ -1,3 +1,4 @@
+/* Mobile Responsive Design */
 @media only screen and (max-width: 640px){
     /* Responsive Header Section */
     .menu-btn{
@@ -60,3 +61,5 @@
         width: 100%;
     }
 }
+
+/* Laptop Responsive Design */

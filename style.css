@@ -129,7 +129,12 @@ nav ul  li:nth-child(4){
 }
 /* Header Section Code End Here */
 main{
-    background: linear-gradient(#FFFFFF, rgba(254, 163, 1, 0.3));
+    background: linear-gradient(
+        to bottom,
+     #FFFFFF 0%,
+     #FFFFFF 50%,
+      rgba(254, 163, 1, 0.3)) 50%,
+      rgba(254, 163, 1, 0.3) 100%;
 }
 /* Curriculum Section Code Start Here */
 #curriculum-container{
@@ -346,6 +351,63 @@ main{
     background-color: black;
 }
 /* Our Stories Section Code End Here */
+/* Faq section code start here */
+#faq-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    margin-top: 20px;
+    h2{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: var(--secondFont);
+        text-align: center;
+        margin-bottom: 28px;
+    }
+}
+.faq-and-img-parent-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.faq-section{
+    width: 50%;
+}
+.single-faq{
+    background-color: #F3F3F3;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+}
+.single-faq{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    align-items: baseline;
+    gap: 24px;
+    h6{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    p{
+        color: #707070;
+    }
+    
+}
+.faq-btn{
+        font-size: 35px;
+        cursor: pointer;
+        
+    }
+.faq-img{
+    width: 520px;
+    img{
+        width: 100%;
+    }
+}
+
+/* Faq section code end here */
 /* Footer Section Code Start Here */
 footer{
     background-color: rgba(1, 172, 253, 1);
